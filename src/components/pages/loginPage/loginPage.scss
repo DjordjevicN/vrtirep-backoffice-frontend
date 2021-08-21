@@ -1,0 +1,49 @@
+@import "../../../constants/Colors.scss";
+.loginPage {
+  width: 100%;
+  height: 100vh;
+  &__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    &--input {
+      display: grid;
+      place-items: center;
+      width: 500px;
+      .loginPage--leftSide {
+        text-align: center;
+      }
+
+      margin: 0 auto;
+      .loginPage--pageTitle {
+        padding: 40px;
+        font-size: 900;
+      }
+      .loginPage__actions {
+        input {
+          border: none;
+          border-bottom: 1px solid $gray-30;
+          margin-top: 30px;
+          width: 350px;
+          background-color: none;
+          padding: 10px;
+        }
+        &--password {
+          position: relative;
+        }
+        .eyeButton {
+          position: absolute;
+          bottom: 10px;
+          right: 80px;
+        }
+        .loginPage__button {
+          margin-top: 50px;
+        }
+      }
+    }
+    &--image {
+      width: 100%;
+      height: 100vh;
+      background-color: $company-green;
+    }
+  }
+}

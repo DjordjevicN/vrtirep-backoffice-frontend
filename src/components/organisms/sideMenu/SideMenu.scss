@@ -1,6 +1,37 @@
 @import "../../../constants/Colors.scss";
 .sideMenu {
+  height: 100vh;
+  width: 260px;
+  background-color: $company-green;
   &__content {
-    background-color: $company-green;
+    padding-top: 100px;
+    margin-left: 70px;
+    .sideMenu__avatar {
+      p {
+        padding-top: 10px;
+        color: $white;
+      }
+      img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        object-fit: cover;
+      }
+    }
+    .sideMenu__nabBar {
+      margin-top: 100px;
+      .menuItem {
+        display: flex;
+        align-items: center;
+        color: $white;
+        margin-top: 20px;
+        cursor: pointer;
+        width: 100px;
+        text-decoration: none;
+        p {
+          padding-left: 10px;
+        }
+      }
+    }
   }
 }

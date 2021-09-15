@@ -28,10 +28,19 @@
         cursor: pointer;
         width: 100px;
         text-decoration: none;
+        transition: 0.3s;
+
         p {
           padding-left: 10px;
         }
       }
     }
+  }
+  .homeMenuItem p,
+  .userMenuItem p,
+  .blogMenuItem p,
+  .animalMenuItem p,
+  .bannerMenuItem p {
+    color: rgb(51, 51, 51);
   }
 }

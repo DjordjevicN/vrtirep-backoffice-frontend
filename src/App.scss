@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import "./constants/Colors.scss";
-@import "./components/atoms/Button/Button.scss";
 
 * {
   font-family: "Inter", sans-serif;
@@ -20,8 +19,11 @@ input:-webkit-autofill:active {
   -webkit-text-fill-color: rgb(75, 75, 75);
 }
 
-button {
+.BTN {
   border: none;
   background-color: none;
   cursor: pointer;
+}
+.mainContent {
+  width: 100%;
 }
